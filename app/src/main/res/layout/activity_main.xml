@@ -12,76 +12,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Shieun Song"
         android:id="@+id/textView"
-        android:layout_alignParentTop="true" />
-
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Switch"
-        android:id="@+id/switch1"
-        android:layout_marginBottom="500dp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginRight="78dp"
-        android:layout_marginEnd="78dp"
-        android:checked="false"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentLeft="true"
+        android:background="#CEFBC9"
+        android:textSize="50dp"
+        android:textColor="#FFBB00"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true" />
 
-    <DialerFilter
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/switch1"
-        android:layout_marginLeft="62dp"
-        android:layout_marginStart="62dp"
-        android:layout_below="@+id/textView">
-
-        <EditText
-            android:id="@android:id/hint"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Hint"
-            android:inputType="text" />
-
-        <EditText
-            android:id="@android:id/primary"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@android:id/hint"
-            android:text="Primary"
-            android:inputType="text" />
-    </DialerFilter>
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/switch1"
-        android:layout_toEndOf="@+id/switch1"
-        android:layout_marginLeft="135dp"
-        android:layout_marginStart="135dp"
-        android:layout_marginTop="247dp" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText3"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/switch1"
-        android:layout_toEndOf="@+id/switch1"
-        android:layout_marginLeft="281dp"
-        android:layout_marginStart="281dp"
-        android:layout_marginTop="224dp" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/switch1"
-        android:layout_toEndOf="@+id/switch1"
-        android:layout_marginTop="187dp" />
 </RelativeLayout>
